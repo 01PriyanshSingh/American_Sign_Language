@@ -10,7 +10,7 @@ from keras.preprocessing import image
 from tensorflow.python.ops.gen_array_ops import Concat
 from keras.models import load_model
 
-model = load_model(r"/Users/priyanshsingh/Desktop/untitled folder/ASL PROJECT/asl.h5",compile=False)
+model = load_model(r"asl.h5",compile=False)
 app=Flask(__name__)
 
 
